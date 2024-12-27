@@ -3,6 +3,6 @@ import { defineConfig } from 'astro/config';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'RaccoonCE.github.io',
-    base: 'RaccoonCE.github.io'
+    site: 'https://raccoonce.github.io',
+    base: 'RaccoonCodeExecution',
 });
