@@ -18,4 +18,12 @@ export default defineConfig(({ mode }) => ({
   },
   // Properly handle base path for production builds
   base: "./",
+  build: {
+    outDir: "dist",
+    rollupOptions: {
+      input: {
+        main: path.resolve(__dirname, "index.html"),
+      },
+    },
+  },
 }));
